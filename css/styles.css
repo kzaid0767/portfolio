@@ -44,7 +44,16 @@ header h2 {
 
 .carousel {
     border: solid rgba(168,216,167,255);
-    
+    width: 300;
+    height: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-block {
+    height: 395;
+    width: 295;
+    object-fit: fill;
 }
 
 #carouselButton {
@@ -59,6 +68,7 @@ header h2 {
 }
 
 
+
 .site-footer {
     background-image: linear-gradient(rgba(168,216,167,255), white);
     padding: 20px 0;
@@ -68,11 +78,27 @@ header h2 {
 
 body {
     /* The image used */
-    background-image: url(/img/background1.png);
+    background-image: url(/img/anothebackround.jpg);
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
-  }
+}
+marquee {
+    background-color: rgba(168,216,167,255);
+    height: 35;
+}
+marquee > h4 {
+    color:#6d10d6;
+    font-style: italic;
+    
+}
+
+.card-title {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #6d10d6;
+}
